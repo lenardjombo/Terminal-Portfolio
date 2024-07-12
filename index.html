@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jombo || Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="terminal">
+        <div class="terminal-header">
+            <div class="buttons">
+                <span class="close"></span>
+                <span class="minimize"></span>
+                <span class="maximize"></span>
+            </div>
+            <span class="title">Terminal</span>
+        </div>
+        <div class="terminal-body" id="terminal-body">
+            <p class="output">Welcome</p>
+            <p class="output">Starting the server...</p>
+            <script>
+                await delay(1500)
+            </script>
+            <p class="output">You can run several commands:</p>
+            <p class="command">1.about</p>
+            <p class="command">2.skills</p>
+            <p class="command">3.projects</p>
+            <p class="command">4.social</p>
+            <p class="command">5.clients</p>
+            <div class="input-line">
+                <span class="prompt"># user in ~/jombo-leonard $</span>
+                <input type="text" id="terminal-input" autofocus>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
