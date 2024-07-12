@@ -1,2 +1,2 @@
 # Terminal-Portfolio
-##live demo https://jombo.netlify.app/
+live demo https://jombo.netlify.app/
