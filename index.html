@@ -10,30 +10,21 @@
     <div class="terminal">
         <div class="terminal-header">
             <div class="buttons">
-                <span class="close"></span>
-                <span class="minimize"></span>
-                <span class="maximize"></span>
+                <div class="close"></div>
+                <div class="minimize"></div>
+                <div class="maximize"></div>
             </div>
-            <span class="title">Terminal</span>
+            <div class="title">Terminal</div>
         </div>
-        <div class="terminal-body" id="terminal-body">
-            <p class="output">Welcome</p>
-            <p class="output">Starting the server...</p>
-            <script>
-                await delay(1500)
-            </script>
-            <p class="output">You can run several commands:</p>
-            <p class="command">1.about</p>
-            <p class="command">2.skills</p>
-            <p class="command">3.projects</p>
-            <p class="command">4.social</p>
-            <p class="command">5.clients</p>
+        <div class="terminal-body">
+            <pre id="terminal-content">Welcome...
+Starting server...</pre>
             <div class="input-line">
-                <span class="prompt"># user in ~/jombo-leonard $</span>
+                <span class="prompt">$ </span>
                 <input type="text" id="terminal-input" autofocus>
             </div>
         </div>
     </div>
-    <script src="scripts.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
