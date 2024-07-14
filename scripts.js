@@ -3,10 +3,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const terminalInput = document.getElementById('terminal-input');
     const defaultContent = `
 Starting server...
-Type '<span class="command">all</span>' to see all commands ('<span class="command">about</span>', '<span class="command">skills</span>', '<span class="command">projects</span>', '<span class="command">socials</span>', '<span class="command">clients</span>'), '<span class="command">clear</span>' to clear the terminal, and '<span class="command">exit</span>' to close the terminal.`;
+Type '<span class="command">all</span>' to see all commands'<span class="command">clear</span>' to clear the terminal,and '<span class="command">exit</span>' to close the terminal.`;
 
     const commands = {
-        about: "About: I am a software developer deeply passionate about data science, AI, and machine learning. With a focus on creating robust applications, I specialize in Dart with Flutter for cross-platform mobile development, and JavaScript for interactive front-end experiences. In addition, I have extensive experience with Python, utilizing both Django and Flask frameworks for web development and backend services",
+        about: "About: I am a software developer with a greater passionate about data science, AI and machine learning. With a focus on creating robust applications and systems, I specialize in Dart with Flutter for cross-platform mobile development,JavaScript for interactive front-end experiences,MySql for database systems and django  for back-end web development. In addition, I have extensive experience with Python, utilizing both Django and Flask frameworks for web development,web servers and backend services",
         skills: `
 Skills:
     Programming Languages
